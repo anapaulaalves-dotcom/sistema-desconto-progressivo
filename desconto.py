@@ -2,11 +2,9 @@
 # Programa desenvolvido para calcular o desconto
 # de acordo com o valor total da compra.
 
-
 # Entrada de dados
 # Solicita ao usuário o valor total da compra
 valor_compra = float(input("Digite o valor total da compra: R$ "))
-
 
 # Verificação da faixa de desconto
 # Compras menores que R$ 200 recebem 5% de desconto
@@ -21,14 +19,11 @@ elif valor_compra < 300:
 else:
     percentual_desconto = 0.15
 
-
 # Cálculo do valor do desconto
 valor_desconto = valor_compra * percentual_desconto
 
-
 # Cálculo do valor final da compra
 valor_final = valor_compra - valor_desconto
-
 
 # Exibição dos resultados
 print("\n--- Resultado da compra ---")
